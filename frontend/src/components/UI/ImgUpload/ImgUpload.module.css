@@ -1,0 +1,36 @@
+.ImageUploader {
+    background-image: var(--gradient);
+    height: var(--height);
+    width: var(--width);
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.ImageUploader:hover {
+    scale: 0.95;
+}
+
+.FileUploadWrapper {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    height: var(--height);
+    width: var(--width);
+    justify-content: center;
+    align-items: center;
+}
+
+.FileUpload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: var(--height);
+    width: var(--width);
+    opacity: 0;
+}
+
+.Image {
+    height: var(--height);
+    width: var(--width);
+}

@@ -1,0 +1,38 @@
+.FileUpload {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--gradient);
+    border-radius: 10px;
+    width: 100%;
+    transition: 1s;
+}
+
+.FileUploadComplete {
+    background-image: var(--green-gradient);
+}
+
+
+.FileUpload span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: smaller;
+    color: var(--on-gradient-text-color);
+}
+
+.FileUpload input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.LoadedFile {
+    font-size: 10px;
+    word-break: break-all;
+    padding: 10%;
+}

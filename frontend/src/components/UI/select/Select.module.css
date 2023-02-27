@@ -1,0 +1,17 @@
+.Select {
+    background-image: var(--gradient);
+    color: var(--on-gradient-text-color);
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.Select option {
+    color: var(--text-color);
+
+    border-radius: 50%;
+    background-color: transparent;
+    
+}

@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+databases
+sqlalchemy
+pydantic[dotenv]
+bcrypt
+pyjwt
+asyncpg
+psycopg2
+python-multipart
+aiofiles

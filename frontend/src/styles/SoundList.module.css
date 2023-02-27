@@ -1,0 +1,54 @@
+.SoundList {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.SoundList table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.SoundList thead {
+    color: var(--on-gradient-text-color);
+    background-image: var(--gradient);
+    text-align: left;
+    height: 40px;
+}
+
+.SoundList th {
+    padding: 5px;
+}
+
+.SoundList tr {
+    max-height: 10px;
+}
+
+.SoundList td {
+    padding: 10px;
+}
+
+.SoundList tfoot {
+    color: #fff;
+    height: 40px;
+    background-image: var(--gradient);
+}
+
+.PageButton {
+    height: 30px;
+    width: 30px;
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: transform 0.1s ease-in-out;
+}
+
+.PageButton:active {
+    transform: scale(0.9);
+}

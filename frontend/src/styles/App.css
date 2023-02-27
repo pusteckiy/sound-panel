@@ -1,0 +1,31 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+
+}
+
+:root {
+    --height: 150px;
+    --width: 150px;
+    --gradient: linear-gradient(180deg, #5992F6 0%, #1F64CE 100%);
+    --orange-gradient: linear-gradient(180deg, #f5af19 0%, #f12711 100%);
+    --green-gradient: linear-gradient(180deg, #38ef7d 0%, #11998e 100%);
+    --on-gradient-text-color: #fff;
+    --text-color: #1E1E1E;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    background-color: #E8E8E8;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.App {
+    width: 800px;
+}

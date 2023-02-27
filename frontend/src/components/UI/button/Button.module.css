@@ -1,0 +1,16 @@
+.Button {
+    background: var(--gradient);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: var(--on-gradient-text-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: smaller;
+    width: 100%;
+    transition: transform 0.1s ease-in-out;
+}
+
+.Button:active {
+    transform: scale(0.9);
+}

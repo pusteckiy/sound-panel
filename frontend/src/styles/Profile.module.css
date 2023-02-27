@@ -1,0 +1,17 @@
+:root {
+    --text-color: #1E1E1E;
+}
+
+.Profile {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+    padding: 20px;
+}
+
+.Information {
+    display: block;
+    margin-left: 20px;
+    color: var(--text-color);
+}

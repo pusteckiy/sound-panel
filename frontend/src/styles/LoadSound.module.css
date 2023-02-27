@@ -1,0 +1,23 @@
+.LoadSound {
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 50px;
+    height: 60%;
+}
+
+.LoadSound h2 {
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.LoadSound Button {
+    height: 50px;
+}
+
+.ButtonWrapper {
+    position: absolute;
+    bottom: 10%;
+    width: 72%;
+}
